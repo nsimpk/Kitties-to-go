@@ -1,0 +1,12 @@
+.container {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: right;
+}
+.box {
+    height: 300px;
+    width: 350px;
+}
