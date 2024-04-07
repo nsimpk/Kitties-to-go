@@ -31,3 +31,9 @@ nav a {
     background-size: cover;
     background-position: center center;
 }
+
+.linear-gradient {
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(11deg, yellow, brown);
+}
