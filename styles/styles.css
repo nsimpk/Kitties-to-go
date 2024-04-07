@@ -32,8 +32,20 @@ nav a {
     background-position: center center;
 }
 
-.linear-gradient {
+.linear-gradient-title {
     height: 50px;
     width: 100%;
     background: linear-gradient(11deg, yellow, brown);
+}
+
+.linear-gradient {
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(11deg, yellow, brown);
+}
+
+.responsive-img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
