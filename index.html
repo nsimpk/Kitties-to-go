@@ -30,9 +30,13 @@
                         <h4>Cats Cats and More Cats!</h4>
                         <p>I once had a kitty named Zelda</p>
                         <img
-                            class="fit-picture"
-                            src="./images/sidebar-cat.jpg"
+                            class="responsive-img"
+                            src="./images/sidebar-cat-big.jpg"
                             alt="grey kitten perched up"
+                            srcset="./images/sidebar-cat-smol.jpg 100w, 
+                                    ./images/sidebar-cat-big.jpg 300w"
+                            sizes="(max-width:300px) 50px, 
+                                    350px"
                         >
                         <span class="sr-only">this link will navigate you to the top of this page, rather "pointless"</span>
                         <a href="#">PointlessURL</a>
